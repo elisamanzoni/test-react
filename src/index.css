@@ -10,20 +10,27 @@
 .box {
     background-color: darkgrey;
     width: 200px;
+    height: fit-content;
     border-radius: 5px;
     text-align: center;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-grow: 2;
+    align-items: stretch;
 }
 
 .navMenu {
-    background-color: darkgrey;
+    background-color: lightblue;
     border-radius: 5px;
     text-align: center;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: fit-content;
+    height: 200px;
+    flex-grow: 4;
 }
 
 .taskCard {
@@ -35,4 +42,22 @@
     flex-wrap: wrap;
     width: 200px;
     height: 200px;
+}
+
+.pageMain {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.taskContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.dNone {
+display: none;
 }

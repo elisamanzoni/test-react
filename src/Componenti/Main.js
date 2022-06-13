@@ -8,11 +8,11 @@ function Main() {
 
     return ( /*parte che viene renderizzata -- ogni componente deve avere almeno un return*/
         <>
-
+        <div className="taskContainer">
             <Task />
             <Task />
             <Task />
-
+        </div>
         </>
     );
 }
