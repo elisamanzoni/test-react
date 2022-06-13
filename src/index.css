@@ -1,0 +1,38 @@
+.btn-task {
+    border: solid;
+    border-color: black;
+    background: none;
+    border-width: 2px;
+    margin: 5px auto;
+    padding: 5px 7px;
+}
+
+.box {
+    background-color: darkgrey;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.navMenu {
+    background-color: darkgrey;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.taskCard {
+    background-color: lightgrey;
+    border-radius: 5px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+}
